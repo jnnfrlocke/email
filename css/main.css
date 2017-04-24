@@ -27,6 +27,7 @@ header {
 
 .half-width {
     background-color: #EEF0F2;
+    overflow: auto;
 }
 
 footer {
