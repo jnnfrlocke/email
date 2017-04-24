@@ -7,6 +7,9 @@ h1 {
     font-variant: small-caps;
 }
 
+
+/*Envelope Icon*/
+
 h2 {
     font-size: 44px;
     color: #3e3935;
@@ -29,9 +32,15 @@ header {
     background-color: #A2999E;
 }
 
+
+/*Body*/
+
 .full-content {
     background-color: #C6C7C4;
 }
+
+
+/*2 Column Section*/
 
 .half-width {
     background-color: #EEF0F2;
