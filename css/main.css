@@ -1,5 +1,6 @@
 h1 {
     font-family: 'Fredoka One', cursive;
+    color: #3e3935;
     font-size: 48px;
     padding: 1em 0 0 0;
     text-align: center;
@@ -8,4 +9,31 @@ h1 {
 
 h2 {
     font-size: 44px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #3e3935;
+    font-size: 24px;
+}
+
+header {
+    background-color: #A2999E;
+}
+
+.full-content {
+    background-color: #C6C7C4;
+}
+
+.half-width {
+    background-color: #EEF0F2;
+}
+
+footer {
+    background-color: #846A6A;
+}
+
+footer p {
+    font-family: 'Fredoka One', cursive;
+    color: #3e3935;
 }
