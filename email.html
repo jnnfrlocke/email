@@ -17,7 +17,7 @@
             font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
             color: #3e3935;
             font-size: 48px;
-            padding: 1em 0 0 0;
+            padding: 1em 10px 0 10px;
             text-align: center;
             font-variant: small-caps;
             margin: 0;
@@ -36,14 +36,9 @@
             color: #3e3935;
             font-size: 24px;
         }
-        
-        header {
-            background-color: #A2999E;
-            height: 200px;
-        }
         /* The animation code */
         
-        @keyframes example {
+        @keyframes header {
             0% {
                 background-color: #A2999E;
             }
@@ -56,6 +51,14 @@
             100% {
                 background-color: #E1D7D8;
             }
+        }
+        
+        header {
+            background-color: #A2999E;
+            height: 200px;
+            animation-name: header;
+            animation-duration: 30s;
+            animation-iteration-count: infinite;
         }
         
         footer {
@@ -86,7 +89,7 @@
 
     <wrapper width="800px">
         <header>
-            <h1 class="title">Welcome to my new email newsletter!</h1>
+            <h1 class="title">Thank you for subscribing to my new email newsletter!</h1>
         </header>
 
         <!--Body-->
