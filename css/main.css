@@ -9,6 +9,14 @@ h1 {
 
 h2 {
     font-size: 44px;
+    color: #3e3935;
+}
+
+h5 {
+    font-size: 30px;
+    color: #3e3935;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
 }
 
 p {
@@ -28,6 +36,7 @@ header {
 .half-width {
     background-color: #EEF0F2;
     overflow: auto;
+    width: 50%;
 }
 
 footer {
@@ -35,6 +44,5 @@ footer {
 }
 
 footer p {
-    font-family: 'Fredoka One', cursive;
-    color: #3e3935;
+    font-size: 18px;
 }
